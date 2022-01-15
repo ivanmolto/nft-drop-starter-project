@@ -508,6 +508,7 @@ async function awaitTransactionSignatureConfirmation(
   console.log('Returning status', status);
   return status;
 }
+
 export function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
